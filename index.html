@@ -175,11 +175,12 @@
                 <h2 class="section-title">Contacto</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="mailto:lt.lolostech@gmail.com" method="post" enctype="text/plain" class="contact__form">
-                        <input type="text" placeholder="Nombre" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="enviar.php" method="post" enctype="text/plain" class="contact__form">
+                        <input type="text" name="name" id="name" placeholder="Nombre" class="contact__input name">
+                        <input type="text" name="mail" id="mail" placeholder="Email" class="contact__input email">
+                        <textarea name="message" placeholder="Escriba su mensaje aquí" id="message" cols="0" rows="10" class="contact__input message" ></textarea>
+                        <div class="clear"></div>
+                        <button type="submit" class="contact__button button"> Enviar </button>
                     </form>
                 </div>
             </section>

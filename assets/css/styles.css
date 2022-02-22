@@ -74,20 +74,32 @@ img {
 .ir-arriba {
 	display:none;
 	padding:15px;
- 	background-color:#1bcef7;
+ 	background-color:#148386;
 	font-size:20px;
-	color:#fff;
 	cursor:pointer;
 	position: fixed;
 	bottom:15px;
 	right:15px;
   transition: background-color 0.5s;
+  border-radius: 15px;
+  border-color: #47A9F0;
+}
+
+.ir-arriba i
+{
+  color: #ffffff;
+  transition: 0.5s;
 }
 
 .ir-arriba:hover
 {
   background-color: #d8d51d;
   
+}
+
+.ir-arriba i:hover
+{
+  color: #000000;
 }
 
 /*===== CLASS CSS ===== */
